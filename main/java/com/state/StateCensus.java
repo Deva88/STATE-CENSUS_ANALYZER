@@ -1,9 +1,10 @@
-package com.state;
-
 //http://opencsv.sourceforge.net/apidocs/com/opencsv/bean/CsvToBeanBuilder.html
 //https://dzone.com/articles/the-bean-class-for-java-programming#:~:text=Professor%20Ken%20Fogel%20defines%20the,modeling%20data%20in%20a%20program.&text=Rather%20than%20list%20each%20element,together%20into%20a%20single%20class.
 
-import com.opencsv.bean.CsvBindByName;  //acts as a header-->csvBindByName
+package com.state;
+
+import com.opencsv.bean.CsvBindByName;
+
 //anotherWay (CSV file with a header - users-with-header.csv)
 
 public class StateCensus {
